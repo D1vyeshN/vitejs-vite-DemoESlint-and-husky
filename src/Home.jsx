@@ -8,6 +8,11 @@ const Home = ({ tasks }) => {
       <h1 className="text-3xl font-bold mb-4">Task Manager</h1>
       <Link to="/add" className="text-3xl font-bold mb-4">
         Task Manager
+
+
+
+
+        
       </Link>
       <div>
         {tasks.length === 0 ? (
